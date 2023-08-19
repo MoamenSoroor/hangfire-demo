@@ -1,0 +1,53 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<h2>Hangefire Jobs</h2>
+<div class="row">
+    <div class="col-sm-12 col-md-6 col-xl-4 card">
+        <div class="card-header">
+            Fire-and-forget jobs
+        </div>
+        <div class="card-body text-start">
+            <p class="card-text">These are executed only once and almost immediately after creation.</p>
+            <div class="text-end">
+                <a class="btn btn-primary" asp-action="TestFireAndForget" asp-controller="Home">Test</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-xl-4 card">
+        <div class="card-header">
+            Delayed/Scheduled jobs
+        </div>
+        <div class="card-body text-start">
+            <p class="card-text">These are executed only once, but not immediately, after a specific time interval.</p>
+            <div class="text-end">
+                <a class="btn btn-primary" asp-action="TestDelayed" asp-controller="Home">Test</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-xl-4 card">
+        <div class="card-header">
+            Recurring jobs
+        </div>
+        <div class="card-body text-start">
+            <p class="card-text">Recurring jobs: These are executed many times on the specified CRON schedule.</p>
+            <div class="text-end">
+                <a class="btn btn-primary" asp-action="TestRecurringJobs" asp-controller="Home">Add Recurring</a>
+                <a class="btn btn-danger" asp-action="TestClearRecurringJobs" asp-controller="Home">Clear Recurring</a>
+                <a class="btn btn-warning" asp-action="TestTriggerRecurringJobs" asp-controller="Home">Trigger Recurring</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-xl-4 card">
+        <div class="card-header">
+            Continuations
+        </div>
+        <div class="card-body text-start">
+            <p class="card-text">These are executed when their parent job has been finished.</p>
+            <div class="text-end">
+                <a class="btn btn-primary" asp-action="TestContinuations" asp-controller="Home">Test</a>
+            </div>
+        </div>
+    </div>
+
+</div>

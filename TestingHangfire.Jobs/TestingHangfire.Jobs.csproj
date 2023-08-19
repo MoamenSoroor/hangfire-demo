@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <!--<Nullable>enable</Nullable>-->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Hangfire.Core" Version="1.8.5" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.0.0" />
+    <PackageReference Include="Serilog" Version="3.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TestingHangfire.Data\TestingHangfire.Data.csproj" />
+  </ItemGroup>
+
+</Project>
