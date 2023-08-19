@@ -1,6 +1,6 @@
 ## Hangfire Demo
 __Hangfire__: An easy way to perform background processing in .NET and .NET Core applications.
-I created this demo in Dotnet 7, to discover its main features and usability.
+I created this demo in Dotnet 7, to discover Hangfire's main features and usability.
 
 ### Hangfire components
 - __Hangfire client__
