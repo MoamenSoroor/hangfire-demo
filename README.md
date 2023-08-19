@@ -23,10 +23,10 @@ https://code-maze.com/hangfire-with-asp-net-core/
 There are different types of jobs in Hangfire, such as:
 
 * __Fire-and-forget jobs__: 
-These are executed only once and almost immediately after creation23.
+These are executed only once and almost immediately after creation.
 * __Delayed jobs__: 
-These are executed only once, but not immediately, after a specific time interval23.
+These are executed only once, but not immediately, after a specific time interval.
 * __Recurring jobs__: 
-These are executed many times on the specified CRON schedule23.
+These are executed many times on the specified CRON schedule.
 * __Continuations__: 
-These are executed when their parent job has been finished2.
+These are executed when their parent job has been finished.
