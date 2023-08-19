@@ -7,11 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestingHangfire", "TestingH
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingHangfire.Jobs", "TestingHangfire.Jobs\TestingHangfire.Jobs.csproj", "{4FF3331A-F9C4-41E4-BB6B-FEA904FFED13}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CC5A3F35-950D-4BB1-8663-3D7403951C4C}"
-	ProjectSection(SolutionItems) = preProject
-		README.md = README.md
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HangfireServerService", "HangfireServerService\HangfireServerService.csproj", "{A1EABFE0-73A8-4B6E-94F4-850A5EE6D580}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingHangfire.Data", "TestingHangfire.Data\TestingHangfire.Data.csproj", "{79E3923A-8DB0-42F3-BFD7-A750A2367518}"
